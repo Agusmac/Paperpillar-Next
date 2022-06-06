@@ -261,7 +261,6 @@
     }
 
 
-
     .wobble-ver-right {
         -webkit-animation: wobble-ver-right 0.8s both;
         animation: wobble-ver-right 0.8s both;
@@ -298,7 +297,6 @@
 
 @media (max-width:600px) {
 
-
     .fix {
         margin-bottom: 30px;
     }
@@ -306,12 +304,16 @@
     .displaynonemobile {
         display: none;
     }
-    .NavHero h1{
+
+    .NavHero h1 {
         margin-top: 25px;
     }
+
     .NavHero p {
         margin-bottom: 0;
     }
+
+    
 
     .hero3 img {
         max-height: 200px;

@@ -1,5 +1,3 @@
-
-
 .redhr {
     width: 40px;
     max-width: 25%;
@@ -124,19 +122,31 @@
 
     .clientsGrid div div {
         margin: auto;
-        padding: 0 30px;
+        padding: 20px 30px;
+        min-height: unset;
         width: 70%;
         margin-bottom: 30px;
     }
 
+ /* let's pretend this does not exist(it's actually next js fault and i'm not going to do it again from scratch) */
     .client2 {
         width: 85% !important;
-
     }
 
     .client1 {
         width: 100% !important;
+    }
 
+    .displaysmall span {
+        max-width: 100px !important;
+    }
+
+    .client2 span {
+        max-width: 120px !important;
+    }
+
+    .client1 span {
+        max-width: 150px !important;
     }
 
 }
