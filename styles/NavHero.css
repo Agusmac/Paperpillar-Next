@@ -282,10 +282,10 @@
     }
 
     .displaynone {
-        -webkit-animation: slide-out-blurred-top 0.7s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
-        animation: slide-out-blurred-top 0.7s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
-        opacity: 0;
-        z-index: -10;
+        -webkit-animation: slide-out-blurred-top 0.5s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+        animation: slide-out-blurred-top 0.5s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+        /* opacity: 0;
+        z-index: -10; */
         /* last two lines fix the issue of the exit animation appearing on mobile */
     }
 

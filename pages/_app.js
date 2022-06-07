@@ -10,7 +10,7 @@ import "../styles/Content.css"
 import "../styles/Content2.css"
 import "../styles/Footer.css"
 import "../styles/Animations.css"
-
+import "../styles/Loader.css"
 
 
 

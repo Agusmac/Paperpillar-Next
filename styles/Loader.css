@@ -1,0 +1,24 @@
+.loaderDanbee{
+    background-color: #f6ece9;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    z-index: 1000;
+    font-family: 'Pacifico', cursive;
+    place-content: center;
+    font-smooth: always;
+    -moz-osx-font-smoothing:auto;
+    font-size: 3vw;
+    color: #00364e;
+    transition:linear 1s;
+}
+.dissapearer{
+    opacity: 0;
+}
+.DAunexister{
+  display: none;
+}
+
