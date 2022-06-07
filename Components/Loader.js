@@ -7,10 +7,10 @@ const Loader = () => {
     useEffect(() => {
         setTimeout(() => {
             document.querySelector(".loaderDanbee").classList.add("dissapearer")
-        }, 1000);
+        }, 1200);
         setTimeout(() => {
             document.querySelector(".loaderDanbee").classList.add("DAunexister")
-        }, 2000);
+        }, 2200);
       
     }, [])
 
