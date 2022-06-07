@@ -6,8 +6,8 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=block" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
-                    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=block" rel="stylesheet"/> 
                 </Head>
                 <body>
                     <Main />
