@@ -19,7 +19,16 @@ export default function Home() {
 
   const [footView, setFootView] = useState(false)
 
- 
+  function alert() {
+    Swal.fire({
+      title: 'Continue to Linkedin?',
+      icon: 'info',
+      confirmButtonText: 'Maybe later...',
+      footer: `<a href="https://www.linkedin.com/in/agustin-mac-rae-3348ab216/"
+       target="_blank" rel="noreferrer"> <div className="btn textcenter whiteT"
+       style={{ backgroundColor: "#ef4b6c" }}>LETS TALK!</div></a>`,
+    })
+  }
 
 
   return (
